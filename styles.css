@@ -25,6 +25,7 @@ body{
     color:#007bff;
 }
 .info-box{
+    display:none;;
     background:#fff;
     width:540px;
     border-radius: 5px;
