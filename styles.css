@@ -88,11 +88,13 @@ body{
 .buttons button.restart:hover{
     background:#0263ca;
 }
+/* quiz box */
 
 .quiz-box{
     width:550px;
     background:#fff;
     border-radius:5px;
+    display:none;
 }
 .quiz-box header{
     position: relative;
@@ -210,4 +212,21 @@ footer .total-que span p{
 }
 .total-que span p:first-child{
     padding-left: 0;
+}
+footer .next{
+    height:40px;
+    padding:0 13px;
+    font-size:18px;
+    font-weight: 400;
+    background: #007bff;
+    outline: none;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    border:1px solid #007bff;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+footer .next:hover{
+    background:#0263ca;
 }
