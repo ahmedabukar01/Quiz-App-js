@@ -8,6 +8,7 @@
 body{
     background:#007bff;
 }
+
 .start-btn,
 .info-box,
 .quiz-box{
@@ -89,7 +90,6 @@ body{
     background:#0263ca;
 }
 /* quiz box */
-
 .quiz-box{
     width:550px;
     background:#fff;
